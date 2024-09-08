@@ -5,6 +5,6 @@ USB-LED-CONTROLLERR
 Tiny USB example device created using ESP32.
 This USB device switches on/off and  RGB LED.
 
-A companion linux kernel driver is used
-to bind to this device as a character device.
+A companion linux kernel driver (linux_driver_esp32_usb_led) 
+is used to bind to this device as a character device.
 The character device recieve RGB values of an LED.
